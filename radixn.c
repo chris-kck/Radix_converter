@@ -34,7 +34,7 @@
 //====================================================================
 char* Dec2RadixN(int decValue, int radValue){
 
-            int nValue = (int)floor((log(decValue)/log(radValue))); //to get largest power radix to be raised to for initial division
+            int nValue = (int)floor((log(decValue)/log(radValue))); //to get largest power radix will be raised to for initial division
             char symbols[16]= {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'}; //include hexadecimal
             int quotient,remainder;
             int count=0;
@@ -54,7 +54,7 @@ char* Dec2RadixN(int decValue, int radValue){
 int main (void)
 {
 
-	printf("*****************************\n");
+    printf("*****************************\n");
     printf("%s\n", TITLE);
     printf("Written by: %s \n", AUTHOR);
     printf("Date: %s \n", YEAR);
